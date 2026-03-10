@@ -1,4 +1,4 @@
-package com.example.fvm_skeleton_template
+package com.example.chaos_gear
 
 import io.flutter.embedding.android.FlutterActivity
 

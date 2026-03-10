@@ -2,7 +2,7 @@ import 'dart:io';
 
 // テンプレートのリポジトリ名（置換元）
 // 現在のプロジェクト名（pubspec.yaml の name）に合わせて設定してください。
-const String oldName = 'fvm_skeleton_template';
+const String oldName = 'chaos_gear';
 
 // 除外するディレクトリ（処理速度向上と破壊防止）
 const List<String> excludeDirs = [

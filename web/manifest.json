@@ -1,6 +1,6 @@
 {
-    "name": "fvm_skeleton_template",
-    "short_name": "fvm_skeleton_template",
+    "name": "chaos_gear",
+    "short_name": "chaos_gear",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

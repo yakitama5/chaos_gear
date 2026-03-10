@@ -8,9 +8,7 @@
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off",
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
       "source.organizeImports": "explicit",
@@ -85,9 +83,7 @@
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
-  "vscodeGitCommit.template": [
-    "{prefix}: {message}"
-  ],
+  "vscodeGitCommit.template": ["{prefix}: {message}"],
   "vscodeGitCommit.variables": {
     "prefix": "aliasesType",
     "aliasesType": [

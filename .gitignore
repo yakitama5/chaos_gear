@@ -23,5 +23,7 @@
 /.firebase
 /firebase-debug.log
 
-# FVM Version Cache
 /.fvm
+
+# FVM Version Cache
+.fvm/
