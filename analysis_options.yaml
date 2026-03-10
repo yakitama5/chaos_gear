@@ -1,0 +1,22 @@
+include: package:altive_lints/altive_lints.yaml
+linter:
+  rules:
+    - public_member_api_docs: false
+
+plugins:
+  altive_lints:
+    version: ^2.0.0
+    diagnostics:
+      avoid_hardcoded_color: false
+      avoid_hardcoded_japanese: false
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.gform.dart"
+    - "**/firebase_options*.dart"
+  errors:
+    invalid_annotation_target: ignore
+    todo: ignore
+    hack: ignore

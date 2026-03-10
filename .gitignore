@@ -1,0 +1,27 @@
+# https://dart.dev/guides/libraries/private-files
+# Flutter/Dart/Pub related
+/.dart_tool/*
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IntelliJ related
+/.idea/*
+!/.idea/runConfigurations/
+/*.iml
+
+# mason related
+/.mason
+
+# Lint log
+/custom_lint.log
+
+# https://github.com/felangel/mason/issues/947
+# `mason get`すると内容が絶対パスに書き換わるためバージョン管理しない
+/mason-lock.json
+
+# firebase
+/.firebase
+/firebase-debug.log
+
+# FVM Version Cache
+/.fvm
