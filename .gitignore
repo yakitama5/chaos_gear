@@ -1,68 +1,62 @@
-# https://dart.dev/guides/libraries/private-files
-# Flutter/Dart/Pub related
-/.dart_tool/*
-.flutter-plugins
-.flutter-plugins-dependencies
-
-# IntelliJ related
-/.idea/*
-!/.idea/runConfigurations/
-/*.iml
-
-# mason related
-/.mason
-
-# Lint log
-/custom_lint.log
-
-# https://github.com/felangel/mason/issues/947
-# `mason get`すると内容が絶対パスに書き換わるためバージョン管理しない
-/mason-lock.json
-
-# firebase
-/.firebase
-/firebase-debug.log
-
-/.fvm
-
-# FVM Version Cache
-.fvm/
-
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# Flutter / Dart / Pub 関連
+# --------------------
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
+build/
+custom_lint.log
+**/doc/api/
 
-# Symbolication related
-app.*.symbols
+# IDE / エディタ関連
+# --------------------
+# IntelliJ / Android Studio
+.idea/
+!/.idea/runConfigurations/
+*.iml
+*.ipr
+*.iws
 
-# Obfuscation related
-app.*.map.json
+# VS Code
+.vscode/
 
-# Android Studio will place build artifacts here
+# ツール関連
+# --------------------
+# FVM (Flutter Version Management)
+.fvm/
+
+# Mason
+.mason/
+# `mason get` すると内容が絶対パスに書き換わるためバージョン管理しない
+mason-lock.json
+
+# Firebase 関連
+# --------------------
+.firebase/
+firebase-debug.log
+
+# モバイル固有 (Android / iOS)
+# --------------------
 /android/app/debug
 /android/app/profile
 /android/app/release
+ios/Flutter/.last_build_id
+
+# 難読化・シンボル関連
+# --------------------
+app.*.symbols
+app.*.map.json
+
+# OS / その他
+# --------------------
+.DS_Store
+.history
+.svn/
+.atom/
+*.swp
+*.log
+*.class
+*.pyc
+.buildlog/
+migrate_working_dir/
